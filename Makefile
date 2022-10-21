@@ -1,4 +1,6 @@
-.PHONY: clean
+.PHONY: all clean
+all:
+	./Result
 Result: main.o
 	gcc -o Result main.o
 main.o: main.c
