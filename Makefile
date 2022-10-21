@@ -1,5 +1,5 @@
 .PHONY: all clean
-all:
+all: Result
 	./Result
 Result: main.o
 	gcc -o Result main.o
